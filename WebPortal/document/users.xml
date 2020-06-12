@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <userid>Admin</userid>
+    <lastname/>
+    <firstname/>
+    <accessgroup>Admin</accessgroup>
+    <password>7c43b77717000838e53f20cd5a720f54</password>
+  </user>
+  <user>
+    <userid>aratel</userid>
+    <lastname>RATEL</lastname>
+    <firstname>Alexandre</firstname>
+    <accessgroup>Normale</accessgroup>
+    <password>827ccb0eea8a706c4c34a16891f84e7b</password>
+  </user>
+  <user>
+    <userid>CNAF</userid>
+    <lastname/>
+    <firstname/>
+    <accessgroup>Normale</accessgroup>
+    <password>b9dd4bb9a9d4ddf4d0ca72da0961f8fb</password>
+  </user>
+  <user>
+    <userid>alexandre.ratel</userid>
+    <lastname>RATEL</lastname>
+    <firstname>Alexandre</firstname>
+    <accessgroup>Normale</accessgroup>
+    <password>7c43b77717000838e53f20cd5a720f54</password>
+  </user>
+</users>

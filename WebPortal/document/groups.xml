@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<groups>
+	<group>
+		<name>Admin</name>
+		<description>Groupe des administrateurs</description>
+	</group>
+	<group>
+		<name>Normale</name>
+		<description>Groupe des utilisateurs normaux</description>
+	</group>
+</groups>
+
+

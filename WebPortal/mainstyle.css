@@ -1,0 +1,426 @@
+html,body
+	{
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	height: 100%;
+	background-image: url("design/blue-stripes_1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+
+.contenu
+	{
+	width: 1400px;
+	background-color: white;
+	margin: 0 auto;
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	}
+
+.entete
+	{
+	height: 130px;
+	padding: 10px;
+	background-color: #18a0b2;
+	}
+	
+.entete h1
+	{
+	size: 25px;
+	text-align: left;
+	color: white;
+	}
+
+.centre
+	{
+	padding: 10px;
+	flex: 1;
+	}
+	
+.pied
+	{
+	height: 20px;
+	text-align: center;
+  	padding: 10px;
+  	vertical-align: middle;
+	}
+
+.branchname
+	{
+	padding: 10;
+	font-weight: bold;
+	color: white;
+	background-color: #18a0b2;
+	}
+
+.loginform
+	{
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+.vipTable table
+	{
+	/*border: 1px black solid;*/
+	}
+	
+.vipTable td
+	{
+	border-bottom: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+.navibar, .navibar a
+	{
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px black solid;
+	}
+	
+.navibar a:hover
+	{
+	color: #c0c0c0;
+	}
+	
+.navibar:before
+	{
+	content: "Navigation : ";
+	}
+	
+.selectionFiliale
+	{
+	width: 100%;
+	/*height: 300px;*/
+	/*margin: 0 auto;*/
+	text-align: center;
+	}
+
+.mainmenu
+	{
+	margin: 0 auto;
+	}
+
+.mainmenu td
+	{
+	background-color: #c0d3d6;
+	border: 10px #FFF solid;
+	padding: 25;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.mainmenu td:hover
+	{
+	background-color: #72ccda;
+	border: 10px #FFF solid;
+	}
+	
+.mainmenu a
+	{
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+	color: #000;
+	}
+
+.forwardlist table
+	{
+	width : 100%;
+	border-spacing: 0px;
+	}
+
+.forwardlist tr:FIRST-CHILD td, .forwardlist tr:FIRST-CHILD td a
+	{
+	color:#FFF;
+	background-color: #18a0b2;
+	}
+
+.forwardlist tr td
+	{
+	line-height:40px;
+    height: 40px;
+    width: 60px;
+    vertical-align:middle;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0px;
+	}
+
+.officestyle
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #ecf9fb;
+    color:#000;
+    height: 100%
+	}
+
+.forwarddate
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #b1e8ef;
+    color:#000;
+    height: 100%
+	}
+
+.forwardstatusok
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #00ec00;
+    color:#000;
+    height: 100%
+	}
+
+.forwardstatusnok
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #ff0000;
+    color:#000;
+    height: 100%;
+	}
+
+.forwardstatusnok input[type=button]
+	{
+	border: none;
+	font-size:20px;
+	font-weight: bold;
+    background-color: #ff8000;
+    color:#000;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+	}
+
+.forwardaction
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #c0d3d6;
+    color:#000;
+    height: 100%
+	}
+
+.forwardaction input[type=button]
+	{
+	border: none;
+	font-size:20px;
+	font-weight: bold;
+    background-color: #c0d3d6;
+    color:#000;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+	}
+
+.forwardactiondisable input[type=button]
+	{
+	border: none;
+	font-size:20px;
+	font-weight: bold;
+    background-color: #65939a;
+    color:#000;
+    height: 100%;
+    width: 100%;
+    cursor: not-allowed;
+	}
+	
+.forwardaction input[type=button]:hover
+	{
+ 	background: #ecf1f2;
+	}
+	
+.devicelist table
+	{
+	width : 100%;
+	border-spacing: 0px;
+	}
+
+.devicelist tr:FIRST-CHILD td, .devicelist tr:FIRST-CHILD td a
+	{
+	color:#FFF;
+	background-color: #18a0b2;
+	}
+
+.devicelistfirst
+	{
+	color:#FFF;
+	font-size:12px;
+	background-color: #808080;
+	}
+	
+.devicelist
+	{
+	border:2px solid #FFF;
+    font-size:12px;
+    background-color: #e4e4e4;
+    color:#000;
+    text-align:center;
+    vertical-align:middle;
+    height: 100%
+	}
+
+.deviceaction
+	{
+	border:2px solid #FFF;
+    font-size:12px;
+    background-color: #e0eaeb;
+    color:#000;
+    text-align:center;
+    vertical-align:middle;
+    height: 100%
+	}
+
+.deviceaction input[type=button]
+	{
+	border: none;
+	font-size:20px;
+	font-weight: bold;
+    background-color: #c0d3d6;
+    color:#000;
+    vertical-align:middle;
+    height: 100%;
+    cursor: pointer;
+	}
+	
+.addnewbutton input[type=button]
+	{
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	}
+	
+.techGuyTable table
+	{
+	width : 100%;
+	}
+	
+.techGuyTable td
+	{
+	border-bottom: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+.newTechGuyTable table
+	{
+	width : 100%;
+	}
+	
+.newTechGuyTable td
+	{
+	/*width : 150px;*/
+	height : 30px;
+	font-weight: bold;
+	padding: 5px;
+	}
+
+.newTechGuyTable input[type=text]
+	{
+	font-weight: bold;
+	font-size: 20px;
+	}
+
+.newTechGuyTable input[type=password]
+	{
+	font-weight: bold;
+	font-size: 20px;
+	}
+
+.newTechGuyTable input[type=button]
+	{
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+.newTechGuyTable select
+	{
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+.connected
+	{
+	color:green;
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+.disconnected
+	{
+	color:red;
+	font-weight: bold;
+	font-size: 20px;
+	}
+
+.tabconnected
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #b1e8ef;
+    color:green;
+    text-align:center;
+    vertical-align:middle;
+    height: 100%
+	}
+
+.tabdisconnected
+	{
+	border:2px solid #FFF;
+    font-size:15px;
+    background-color: #b1e8ef;
+    color:red;
+    text-align:center;
+    vertical-align:middle;
+    height: 100%
+	}
+	
+.search table
+	{
+	width : 100%;
+	}
+	
+.search td:last-child
+	{
+    width:1%;
+    white-space:nowrap;
+	}
+
+.search input[type=text]
+	{
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #e9e9e9;
+	border: none;
+	width: 100%
+	}
+
+.search button
+	{
+	border: none;
+	font-size:20px;
+	font-weight: bold;
+    background-color: #c0d3d6;
+    color:#000;
+    padding: 6px 10px;
+	margin-top: 8px;
+	/*margin-right: 16px;*/
+    cursor: pointer;
+	}
+
+.search button:hover
+	{
+ 	background: #ecf1f2;
+	}
