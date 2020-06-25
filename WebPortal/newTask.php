@@ -121,6 +121,8 @@ $MaxResult = 1200;
 					<button type="submit" onclick="action(\'migrate\')">Migration</button>
 					<button type="submit" onclick="action(\'rollback\')">Retour arrière</button>
 					<button type="submit" onclick="action(\'reset\')">Reset</button>
+					<button type="submit" onclick="action(\'cli\')">Cli</button>
+					<button type="submit" onclick="action(\'survey\')">Audit</button>
 					';
 				}
 			}

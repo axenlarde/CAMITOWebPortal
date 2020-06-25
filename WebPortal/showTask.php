@@ -149,11 +149,18 @@ function stopButtonCSS($status)
 		<td></td>
 	</tr>
 	<tr>
+		<td>Avancement : <?php echo $task->progress; ?></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td>Liste des éléments : </td>
 		<td></td>
 		<td></td>
 	</tr>
 </table>
+<h2>Avancement : <?php echo $task->progress; ?></h2>
+<br>
 <div class="forwardlist">
 	<table>
 		<tr>

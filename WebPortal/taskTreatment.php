@@ -9,7 +9,7 @@ include "sessionFound.php";
 
 $urlToReturn = "Location: mainpage.php?page=branchMainAdmin";
 
-if((isset($_GET["action"])) && (($_GET["action"] == "migrate") || ($_GET["action"] == "rollback") || ($_GET["action"] == "reset")))
+if((isset($_GET["action"])) && (($_GET["action"] == "migrate") || ($_GET["action"] == "rollback") || ($_GET["action"] == "reset") || ($_GET["action"] == "cli") || ($_GET["action"] == "survey")))
 	{
 	if(isset($_SESSION['cart']))
 		{
